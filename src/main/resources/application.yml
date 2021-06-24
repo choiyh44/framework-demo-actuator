@@ -1,0 +1,20 @@
+spring:
+  security:
+    user:      name: admin
+      password: admin
+
+management:
+  endpoints:
+    web:
+      base-path: /x2commerce-system
+      exposure:
+        include:
+          - "info"
+          - "health"
+          - "httptrace"
+          - "metrics"
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
