@@ -1,7 +1,7 @@
 # framework-demo-actuator
 ## actuator 설정방법
 1. pom.xml 파일에 spring-boot-starter-actuator 디펜던시를 추가한다.
-2. application.yml 파일에 actuator 설저을 추가한다.
+2. application.yml 파일에 actuator endpoints/endpoint 설정을 추가한다.
 ```
 management:
   endpoints:
