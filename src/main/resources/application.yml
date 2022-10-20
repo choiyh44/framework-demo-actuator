@@ -1,12 +1,12 @@
 spring:
-  security:
-    user:      name: admin
-      password: admin
+ security:
+   user:     name: admin
+     password: admin
 
 management:
   endpoints:
     web:
-      base-path: /x2commerce-system
+      base-path: /x2bee
       exposure:
         include:
           - "info"
@@ -18,3 +18,5 @@ management:
       show-details: always
       probes:
         enabled: true
+    info:
+      enabled: true
